@@ -14,7 +14,7 @@ Project must be smart, simple, safe, following best practices.
 - [x]  Connect this folder to git with `git remote add origin git@github.com:GuillotJessica/keepassXpress.git
 git branch -M main
 git push -u origin main`
-- [ ]  Initialize Flutter project with latest stable version
+- [x]  Initialize Flutter project with latest stable version
 - [ ]  Set up project structure following clean architecture principles
 - [ ]  Configure secure storage for sensitive data
 - [ ]  Implement proper error handling and logging
