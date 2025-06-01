@@ -15,8 +15,8 @@ Project must be smart, simple, safe, following best practices.
 git branch -M main
 git push -u origin main`
 - [x]  Initialize Flutter project with latest stable version
-- [ ]  Set up project structure following clean architecture principles
-- [ ]  Configure secure storage for sensitive data
+- [x]  Set up project structure following clean architecture principles
+- [x]  Configure secure storage for sensitive data
 - [ ]  Implement proper error handling and logging
 - [ ]  Set up CI/CD pipeline
 - [ ]  Configure platform-specific security settings
