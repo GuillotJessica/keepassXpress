@@ -7,24 +7,28 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
 import 'package:keepassxpress/main.dart';
+import 'package:provider/provider.dart';
+import 'package:keepassxpress/domain/providers/app_state.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  testWidgets('AppState theme toggle test', (WidgetTester tester) async {
+    await tester.pumpWidget(
+      ChangeNotifierProvider(create: (_) => AppState(), child: MyApp()),
+    );
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    // Verify initial theme is light
+    final MaterialApp materialApp = tester.widget(find.byType(MaterialApp));
+    expect(materialApp.theme?.brightness, equals(Brightness.light));
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
+    // Find and tap the theme toggle button
+    await tester.tap(find.byIcon(Icons.brightness_6));
     await tester.pump();
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Verify theme is now dark
+    final MaterialApp updatedMaterialApp = tester.widget(
+      find.byType(MaterialApp),
+    );
+    expect(updatedMaterialApp.theme?.brightness, equals(Brightness.dark));
   });
 }
