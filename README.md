@@ -1,162 +1,176 @@
-KeePass project
-A secure, elegant, and cross-platform KeePass client built with Flutter.
+# KeePassXPress
 
-## Project Overview
+A modern, secure password manager built with Flutter.
 
-KeePassXPress is designed to be a simple yet powerful password manager that follows security best practices and provides an elegant user experience across all platforms.
+## Project Status
 
-## Implementation Checklist
-Before moving to next item on the list, feature must be implemented, tested, problems resolved, commit created,pushed and box checked.
-You would be the developer, I would be the project manager.
-Project must be smart, simple, safe, following best practices.
-
-### Phase 1: Project Setup and Core Infrastructure
-- [x]  Connect this folder to git with `git remote add origin git@github.com:GuillotJessica/keepassXpress.git
-git branch -M main
-git push -u origin main`
-- [x]  Initialize Flutter project with latest stable version
-- [x]  Set up project structure following clean architecture principles
-- [x]  Configure secure storage for sensitive data
-- [x]  Implement proper error handling and logging
-- [x]  Set up CI/CD pipeline
-- [x]  Configure platform-specific security settings
-- [ ]  Implement proper state management solution
-- [ ]  Set up automated testing infrastructure
+### Phase 1: Foundation Setup
+- [x] Set up Flutter project structure
+- [x] Configure secure storage
+- [x] Implement proper error handling and logging
+- [x] Set up CI/CD pipeline
+- [x] Configure platform-specific security settings
+- [x] Implement proper state management solution
 
 ### Phase 2: Core Features
+- [ ] Implement password generation
+- [ ] Add password strength checker
+- [ ] Create password entry form
+- [ ] Implement password list view
+- [ ] Add search functionality
+- [ ] Implement password categories
+- [ ] Add password import/export
+- [ ] Implement password sharing
+- [ ] Add password history
+- [ ] Implement password expiration
 
-- [ ]  Database Management
-    - [ ]  Open KeePass database from local storage
-    - [ ]  Read and parse KeePass database format
-    - [ ]  Implement secure database locking
-    - [ ]  Add new entries to database
-    - [ ]  Save database changes
-    - [ ]  Handle database encryption/decryption
+### Phase 3: Security Features
+- [ ] Implement biometric authentication
+- [ ] Add master password protection
+- [ ] Implement auto-lock feature
+- [ ] Add secure clipboard handling
+- [ ] Implement password breach checking
+- [ ] Add two-factor authentication
+- [ ] Implement secure notes
+- [ ] Add file attachments
+- [ ] Implement key file support
+- [ ] Add database encryption
 
-### Phase 3: User Interface
+### Phase 4: User Experience
+- [ ] Design and implement modern UI
+- [ ] Add dark/light theme support
+- [ ] Implement responsive layout
+- [ ] Add keyboard shortcuts
+- [ ] Implement drag and drop
+- [ ] Add custom icons
+- [ ] Implement favorites
+- [ ] Add tags support
+- [ ] Implement sorting options
+- [ ] Add filtering capabilities
 
-- [ ]  Platform-Specific Design Implementation
-    - [ ]  iOS (Cupertino)
-        - [ ]  Follow Apple Human Interface Guidelines
-        - [ ]  Implement iOS-style navigation and gestures
-        - [ ]  Use SF Symbols for icons
-        - [ ]  Support Dynamic Island and Notch
-        - [ ]  Implement iOS-style animations and transitions
-        - [ ]  Support iOS accessibility features
-    - [ ]  Android (Material)
-        - [ ]  Follow Material Design 3 guidelines
-        - [ ]  Implement Material You theming
-        - [ ]  Use Material Design icons
-        - [ ]  Support Android navigation gestures
-        - [ ]  Implement Material motion system
-        - [ ]  Support Android accessibility features
-    - [ ]  macOS
-        - [ ]  Follow Apple Human Interface Guidelines
-        - [ ]  Implement native macOS window management
-        - [ ]  Support macOS keyboard shortcuts
-        - [ ]  Use native macOS menus and toolbars
-        - [ ]  Implement macOS-style animations
-        - [ ]  Support macOS accessibility features
-    - [ ]  Windows
-        - [ ]  Follow Fluent Design System
-        - [ ]  Implement Windows 11 style controls
-        - [ ]  Support Windows keyboard shortcuts
-        - [ ]  Use Windows-style animations
-        - [ ]  Support Windows accessibility features
-    - [ ]  Linux
-        - [ ]  Support GTK and Qt themes
-        - [ ]  Follow Linux desktop guidelines
-        - [ ]  Implement Linux-style window management
-        - [ ]  Support Linux keyboard shortcuts
-        - [ ]  Use platform-appropriate icons
-- [ ]  Cross-Platform Common Elements
-    - [ ]  Consistent core functionality across platforms
-    - [ ]  Platform-appropriate typography
-    - [ ]  Responsive layouts for all screen sizes
-    - [ ]  Adaptive layouts for different orientations
-    - [ ]  High contrast mode support
-    - [ ]  Internationalization and localization
-    - [ ]  RTL language support
-- [ ]  Theme System
-    - [ ]  Platform-specific default themes
-    - [ ]  Dark/Light mode support
-    - [ ]  Custom theme support
-    - [ ]  Dynamic theme switching
-    - [ ]  High contrast themes
-    - [ ]  Color-blind friendly themes
+### Phase 5: Advanced Features
+- [ ] Implement password health check
+- [ ] Add password reuse detection
+- [ ] Implement password aging
+- [ ] Add emergency access
+- [ ] Implement secure sharing
+- [ ] Add password inheritance
+- [ ] Implement secure browser integration
+- [ ] Add password audit
+- [ ] Implement secure password recovery
+- [ ] Add advanced search
 
-### Phase 4: Security Features
-
-- [ ]  Implement secure password entry
-- [ ]  Add biometric authentication support
-- [ ]  Implement auto-lock functionality
-- [ ]  Add clipboard management
-- [ ]  Implement secure memory handling
-- [ ]  Add password strength indicators
-
-## Desired User Features
-
-### Essential Features
-
-- [ ]  Open and read KeePass databases
-- [ ]  Add new password entries
-- [ ]  Edit existing entries
-- [ ]  Delete entries
-- [ ]  Search functionality
-- [ ]  Copy credentials to clipboard
-- [ ]  Secure password generation
-- [ ]  Auto-lock after inactivity
-
-### Enhanced Features
-
-- [ ]  Password strength analysis
-- [ ]  Password history
-- [ ]  Custom fields support
-- [ ]  Tags and categories
-- [ ]  Favorites system
-- [ ]  Export/Import functionality
-- [ ]  Backup and restore
-- [ ]  Password expiration reminders
-
-### Security Features
-
-- [ ]  Biometric authentication
-- [ ]  Secure clipboard handling
-- [ ]  Auto-clear clipboard
-- [ ]  Secure memory management
-- [ ]  Database integrity checks
-- [ ]  Emergency wipe functionality
-
-### User Experience
-
-- [ ]  Dark/Light theme
-- [ ]  Customizable UI
-- [ ]  Quick search
-- [ ]  Keyboard shortcuts
-- [ ]  Drag and drop support
-- [ ]  Cross-platform sync
-- [ ]  Offline support
-
-## Development Guidelines
-
-- Follow Flutter best practices
-- Implement proper error handling
-- Write comprehensive tests
-- Maintain clean code architecture
-- Ensure cross-platform compatibility
-- Prioritize security and performance
-- Document all major features
-- Regular security audits
+### Phase 6: Testing and Documentation
+- [ ] Write unit tests
+- [ ] Add integration tests
+- [ ] Implement UI tests
+- [ ] Add performance tests
+- [ ] Write security tests
+- [ ] Create user documentation
+- [ ] Add API documentation
+- [ ] Write developer documentation
+- [ ] Create deployment guide
+- [ ] Add troubleshooting guide
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK (latest stable version)
+- Dart SDK (latest stable version)
+- Android Studio / Xcode (for mobile development)
+- VS Code (recommended for development)
 
-A few resources to get you started:
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/keepassxpress.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Navigate to the project directory:
+```bash
+cd keepassxpress
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the app:
+```bash
+flutter run
+```
+
+## Development
+
+### Project Structure
+```
+lib/
+├── core/
+│   ├── constants/
+│   ├── errors/
+│   └── utils/
+├── data/
+│   ├── models/
+│   ├── repositories/
+│   └── services/
+├── domain/
+│   ├── entities/
+│   ├── providers/
+│   └── usecases/
+└── presentation/
+    ├── screens/
+    ├── widgets/
+    └── theme/
+```
+
+### Code Style
+- Follow the [Dart style guide](https://dart.dev/guides/language/effective-dart/style)
+- Use meaningful variable and function names
+- Write clear and concise comments
+- Keep functions small and focused
+- Use proper error handling
+
+### Testing
+- Write tests for all new features
+- Maintain test coverage above 80%
+- Run tests before committing changes
+- Use meaningful test descriptions
+
+### Git Workflow
+1. Create a new branch for each feature
+2. Write tests for the feature
+3. Implement the feature
+4. Run tests and fix any issues
+5. Create a pull request
+6. Get code review
+7. Merge after approval
+
+## Security
+
+### Password Storage
+- All passwords are encrypted using AES-256
+- Master password is hashed using Argon2
+- Secure storage is used for sensitive data
+- No plain text passwords are stored
+
+### Data Protection
+- All data is encrypted at rest
+- Secure communication protocols are used
+- Regular security audits are performed
+- Security best practices are followed
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a pull request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- Flutter team for the amazing framework
+- KeePass for inspiration
+- All contributors and supporters
