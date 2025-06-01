@@ -13,7 +13,7 @@ A modern, secure password manager built with Flutter.
 - [x] Implement proper state management solution
 
 ### Phase 2: Core Features
-- [ ] Implement password generation
+- [x] Implement password generation
 - [ ] Add password strength checker
 - [ ] Create password entry form
 - [ ] Implement password list view
