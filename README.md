@@ -11,7 +11,7 @@ You would be the developer, I would be the project manager.
 Project must be smart, simple, safe, following best practices.
 
 ### Phase 1: Project Setup and Core Infrastructure
-- [ ]  Connect this folder to git with `git remote add origin git@github.com:GuillotJessica/keepassXpress.git
+- [x]  Connect this folder to git with `git remote add origin git@github.com:GuillotJessica/keepassXpress.git
 git branch -M main
 git push -u origin main`
 - [ ]  Initialize Flutter project with latest stable version
